@@ -1,10 +1,13 @@
 import React from "react";
+import DashboardHeroSection from "../components/DashboardHeroSection";
+import DashboardGetResume from "../components/DashboardGetResume";
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>DashBoard Page</h1>
-    </div>
+    <>
+      <DashboardHeroSection />
+      <DashboardGetResume />
+    </>
   );
 };
 
